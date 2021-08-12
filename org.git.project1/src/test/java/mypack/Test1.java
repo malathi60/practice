@@ -7,9 +7,10 @@ public class Test1
 	@Test
 	public void method1()
 	{
-		String x="hi";
-		String y="how are you?";
-		String w=x+y;
-		System.out.println("String after concatination:"  + w);
+		int x=10;
+		int y=20;
+		int w=x++;
+		int v=++y;
+		System.out.println("x: " + x +"y: " +y + "w: " + w +"v: " +v);
 	}
 }
