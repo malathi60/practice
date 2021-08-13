@@ -9,7 +9,7 @@ public class Test1
 	{
 		int x=10;
 		int y=20;
-		int w=x++;
+		int w=x--;
 		int v=++y;
 		System.out.println("x: " + x +"y: " +y + "w: " + w +"v: " +v);
 	}
