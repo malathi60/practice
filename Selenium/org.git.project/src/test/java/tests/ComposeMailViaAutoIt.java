@@ -25,9 +25,9 @@ public class ComposeMailViaAutoIt
 	{
 		wu.launchSite(driver,"url");
 		lp=new LoginPage(driver,wait);
-		lp.filluid("malathivan");
+		lp.filluid("learnsdet21@gmail.com");
 		lp.clickNext();
-		lp.fillpwd("Mamatha@60");
+		lp.fillpwd("Learn@1");
 		lp.clickNext();
 		lp.clickCompose();
 		lp.fillto("msdet21@yahoo.com");
