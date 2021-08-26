@@ -7,7 +7,7 @@ public class Test1
 	@Test
 	public void method1()
 	{
-		int x=10;
+		int x=20;
 		int y=30;
 		int w=x--;
 		int v=++y;
